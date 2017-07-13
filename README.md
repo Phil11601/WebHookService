@@ -7,7 +7,8 @@ A proof of concept implemented with Spring Boot that:
 
 #
 Configuration for Github
-* click on Settings/WebHooks to add a Webhook for the repository you would lke to receive events from.
+* click on Settings/WebHooks/add to add a Webhook for the repository you would lke to receive events from.
+* Enter the url on which your service will accept posts from GitHub
 * Enter a salt value in the 'secret' field.
 * Select the events you wish to receive notifications for.
 
